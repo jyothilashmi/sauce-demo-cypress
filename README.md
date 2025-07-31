@@ -9,6 +9,7 @@ Automated test suite for [Sauce Demo](https://www.saucedemo.com) using Cypress w
 -  Assertions to verify each step  
 -  HTML Report along with Screenshots on click
 ## Project Structure 
+```
 sauce-demo-cypress/
 ├── cypress/
 │ ├── e2e/
@@ -25,7 +26,9 @@ sauce-demo-cypress/
 │ │ └── e2e.js # Test setup file
 ├── cypress.config.js # Cypress configuration
 ├── package.json # Project dependencies & scripts
-└── README.md 
+└── README.md
+```
+
 ## Setup & Installation
 
 ### 1. Clone the repo
@@ -35,9 +38,9 @@ git clone https://github.com/jyothilashmi/sauce-demo-cypress.git
 cd sauce-demo-cypress
 ```
 ### 2. Install dependencies
-
+```bash
 npm install
-
+```
 ### 3. Running the tests 
 In GUI : npm run test
 Headless: npm run test:report
