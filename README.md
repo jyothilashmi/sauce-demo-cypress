@@ -42,8 +42,14 @@ cd sauce-demo-cypress
 npm install
 ```
 ### 3. Running the tests 
-In GUI : npm run test
-Headless: npm run test:report
+In GUI :
+```bash
+npm run test
+```
+Headless:
+```bash
+npm run test:report
+```
 
 This will:
 
