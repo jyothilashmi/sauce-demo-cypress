@@ -56,10 +56,12 @@ This will:
 - Run tests headlessly
 - Merge Mochawesome JSON reports
 - Generate an HTML report at: cypress/reports/index.html
-- Screenshots are taken for each click event.Saved automatically by Cypress for debugging
+- Screenshots are taken for each click event and saved automatically by Cypress for debugging
 ### 4. Notes 
 - Locators are saved in cypress/fixtures/locators.json
-- This framework is data driven and is available in cypress/fixtures/testdata.json
+- This framework is data driven and test data is available in cypress/fixtures/testdata.json
+- To increase readability and resuability used custom commands in cypress/support/commands.js
 - Built using Cypress v14+ and Node v20+
+  
 
 
