@@ -1,0 +1,15 @@
+{
+  "standarduser": {
+    "username": "standard_user",
+    "password": "secret_sauce"
+  },
+  "lockeduser": {
+    "username": "locked_out_user",
+    "password": "secret_sauce"
+  },
+  "fillDetails":{
+    "firstName":"testing",
+    "lastName":"Demo",
+    "zipcode":"990"
+  }
+}

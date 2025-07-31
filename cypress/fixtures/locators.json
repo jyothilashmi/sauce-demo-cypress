@@ -1,0 +1,21 @@
+{
+  "checkoutPage": {
+    "txtfirstname": "[data-test=\"firstName\"]",
+    "txtlastname": "[data-test=\"lastName\"]",
+    "txtzip": "[data-test=\"postalCode\"]",
+    "continueBtn": "[data-test=\"continue\"]",
+    "finishBtn": "[data-test=\"finish\"]",
+    "completeHeader": ".complete-header",
+    "inventoryItemName": ".inventory_item_name",
+    "inventoryItems":".inventory_item",
+    "shoppingCartBadge":"[data-test=\"shopping-cart-badge\"]",
+    "shoppingCartLink":".shopping_cart_link",
+    "checkoutBtn":"[data-test=\"checkout\"]"
+
+  },
+  "loginPage":{
+    "txtusername":"#user-name",
+    "txtpassword":"#password",
+    "loginBtn":"#login-button"
+  }
+}
